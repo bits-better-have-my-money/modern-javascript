@@ -1,9 +1,12 @@
-var moment = require('moment');
-var math = require('mathjs');
+import moment from 'moment';
+const math = require('mathjs');
 
 console.log("Hello from JavaScript!");
-var startOfHour = moment().startOf('hour').fromNow();
+let startOfHour = moment().startOf('hour').fromNow();
 console.log(startOfHour);
 
-var logResult = math.log(10000, 10);
+let logResult = math.log(10000, 10);
 console.log(logResult);
+
+var name = "Susan", time = "tomorrow";
+console.log(`Hello ${name}, how are you ${time}?`);
